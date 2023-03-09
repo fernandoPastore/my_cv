@@ -9,7 +9,6 @@ html {
     font-size: 16px;
 }
 
-a:hover {box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);}
 
 body {
     margin: 0;
@@ -67,6 +66,7 @@ main  section {
     padding: 0;
     list-style: none;
     font-size: .9rem;
+    
 }
 
 #contact > ul li {
@@ -77,10 +77,12 @@ main  section {
     position: relative;
     top: 8px;
     margin-right: 8px;
+    
 }
 
 #contact > ul a {
     color: white;
+    text-decoration: none;
 }
 
 #skills {
@@ -133,7 +135,7 @@ main  section {
 }
 
 footer  {
-    height: 200px;
+    height: 220px;
     display:flex;
     align-items: center;
     justify-content: center
@@ -165,8 +167,16 @@ footer #en  {
     text-decoration: none;
 }
 
-#pt:hover{box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);}
-#en:hover{box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);}
+#pt:hover {
+    position: relative;
+    top: -3px;
+    box-shadow: -6px 14px 12px 2px rgba(0,0,0,0.2);;
+  }
+#en:hover {
+    position: relative;
+    top: -3px;
+    box-shadow: -6px 14px 12px 2px rgba(0,0,0,0.2);;
+  }
 
 @media (max-width: 960px) {
     main {
